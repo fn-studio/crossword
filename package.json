@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "BROSWER=none snowpack dev",
+    "start": "BROSWER=none snowpack dev",
     "build": "snowpack build",
     "test": "web-test-runner \"src/**/*.test.tsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
