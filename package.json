@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "arc": "arc",
     "dev": "BROSWER=none snowpack dev",
     "start": "BROSWER=none snowpack dev",
     "build": "snowpack build",
@@ -15,6 +16,7 @@
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
+    "@architect/architect": "^8.4.8",
     "@architect/sandbox": "^3.3.7",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.4.0",
