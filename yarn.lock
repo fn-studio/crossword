@@ -151,7 +151,7 @@
   resolved "https://registry.yarnpkg.com/@architect/parser/-/parser-3.0.1.tgz#cb3cb62b1289cc8ab1f46cc9d2222c6fe0496664"
   integrity sha512-mXn5Ha5a3tEOV5vkGHLdrDinSRfO8g9s72gKuOWA13HJtGcfI+jkYrEdQbLqe63gz0RPQN27h0e1IKc2kSzqHw==
 
-"@architect/sandbox@3.3.7", "@architect/sandbox@^3.3.7":
+"@architect/sandbox@3.3.7":
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/@architect/sandbox/-/sandbox-3.3.7.tgz#c9d09705fdbdb559297aa8c2f25b66200da38b4f"
   integrity sha512-5oQvmLczpl8Xd/mtXmzU9VK6dZHQuYdJdxpC+dIbHluvncZg4BIawWG9243YO5ALPL5b2DQ+Umkuy/Tj2tUXug==
