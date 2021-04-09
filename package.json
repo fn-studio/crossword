@@ -4,12 +4,14 @@
     "dev": "BROSWER=none snowpack dev",
     "start": "BROSWER=none snowpack dev",
     "build": "snowpack build",
-    "test": "web-test-runner \"src/**/*.test.tsx\"",
+    "test": "echo 'try running `yarn test-fe` for fe tests'",
+    "test-fe": "web-test-runner \"src/**/*.test.tsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "check": "tsc && eslint && prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint"
   },
   "dependencies": {
+    "@begin/data": "^2.0.1",
     "@emotion/react": "^11.1.5",
     "prefix-trie-ts": "^0.0.4",
     "react": "^17.0.0",

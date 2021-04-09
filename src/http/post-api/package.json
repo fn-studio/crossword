@@ -1,0 +1,9 @@
+{
+  "name": "post-api",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@begin/data": "^2.0.1"
+  }
+}
