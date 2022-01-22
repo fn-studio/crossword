@@ -1,3 +1,3 @@
-import data from 'https://cdn.skypack.dev/@begin/data';
+import { get } from 'https://deno.begin.com/data@latest/mod.ts';
 
-console.log('hi', data);
+console.log('hi', get);

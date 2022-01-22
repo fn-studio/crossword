@@ -15,10 +15,10 @@ const data = require('@begin/data');
 // https://github.com/beginner-corp/deno-begin-data
 
 // Respond with successful resource creation
-export async function handler(): Promise<Record<string, unknown>> {
+exports.handler = async () => {
   console.log('hi');
-  await data.set({ table: 'foo', key: 'foo', foo: true });
-  await data.get({ table: 'foo', key: 'foo' });
+  // await data.set({ table: 'foo', key: 'foo', foo: true });
+  await data.get({ table: 'data' });
 
   return {
     statusCode: 201,
@@ -29,7 +29,7 @@ export async function handler(): Promise<Record<string, unknown>> {
     },
     body: JSON.stringify({ ok: true }),
   };
-}
+};
 
 /* Deliver client-side JS
 export async function handler (req: object) {

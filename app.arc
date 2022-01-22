@@ -5,6 +5,11 @@ crossword
 get /api
 post /api
 
-@aws
-# makes begin look for `.ts` files
-runtime deno
+@tables
+foo
+  foo *String
+
+data
+  scopeID *String
+  dataID **String
+  ttl TTL
